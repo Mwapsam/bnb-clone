@@ -2,7 +2,7 @@ import React from 'react';
 import Moment from "react-moment";
 import moment from "moment";
 
-import Header from '../navbar/header';
+import Header from '../NavBar/header';
 import ListingShowFooter from '../listings/listing_show/listing_show_footer';
 import PulseLoader from '../loaders/pulse_loader';
 import ListingIndexItem from '../listings/ListingIndexItem';

@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../navbar/header';
+import Header from '../NavBar/header';
 import PulseLoader from '../loaders/pulse_loader';
 import ListingShowFooter from '../listings/listing_show/listing_show_footer';
 import RenderStars from '../stars/render_stars';

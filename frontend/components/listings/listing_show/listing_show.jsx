@@ -2,7 +2,7 @@ import React from 'react';
 import { withRouter } from 'react-router-dom';
 import PulseLoaderAnim from '../../loaders/pulse_loader';
 import Modal from '../../modal/modal';
-import Header from '../../navbar/header';
+import Header from '../../NavBar/header';
 import ListingShowInfoOverlayContainer from './listing_show_info_overlay_container';
 import ListingShowHero from './listing_show_hero';
 import ListingShowDescription from './listing_show_description';

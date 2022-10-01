@@ -1,7 +1,7 @@
 import React from 'react';
 import ListingIndexContainer from '../listings/listing_index_container';
 import ListingMap from '../listings/listing_map';
-import Header from '../navbar/header';
+import Header from '../NavBar/header';
 
 class Search extends React.Component {
   constructor(props) {

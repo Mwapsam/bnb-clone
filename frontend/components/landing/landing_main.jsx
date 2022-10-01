@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../navbar/header';
+import Header from '../NavBar/header';
 import Landing from '../landing/landing';
 
 class LandingMain extends React.Component {

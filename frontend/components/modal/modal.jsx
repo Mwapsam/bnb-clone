@@ -3,7 +3,7 @@ import { closeModal } from '../../actions/modal_actions';
 import { connect } from 'react-redux';
 import LoginFormContainer from '../session_form/login_form_container';
 import SignupFormContainer from '../session_form/signup_form_container';
-import NavbarDropdownContainer from '../navbar/dropdown/navbar_dropdown_container';
+import NavbarDropdownContainer from '../NavBar/dropdown/navbar_dropdown_container';
 import BookingFormContainer from '../../components/booking/booking_modal/booking_form_container'
 import ReviewsModalContainer from '../reviews/reviews_modal_container';
 
