@@ -27,8 +27,7 @@
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
     "style-loader": "^0.23.1",
-    "webpack": "^4.35.2",
-    "webpack-cli": "^3.3.5"
+    "webpack": "^4.35.2"
   },
   "description": "This README would normally document whatever steps are necessary to get the application up and running.",
   "version": "1.0.0",
@@ -39,7 +38,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack --serve --mode development",
+    "start": "webpack --watch --mode development",
     "postinstall": "webpack"
   },
   "repository": {
@@ -52,5 +51,8 @@
   "bugs": {
     "url": "https://github.com/mrkchoi/airbnb_clone/issues"
   },
-  "homepage": "https://github.com/mrkchoi/airbnb_clone#readme"
+  "homepage": "https://github.com/mrkchoi/airbnb_clone#readme",
+  "devDependencies": {
+    "webpack-cli": "^3.3.5"
+  }
 }
