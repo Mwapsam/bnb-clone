@@ -3,7 +3,7 @@ class Api::ListingsController < ApplicationController
     @listings = bounds ? Listing.in_bounds(bounds).with_attached_thumbnails.with_attached_photos.includes(:reviews) : Listing.all.with_attached_thumbnails.with_attached_photos.includes(:reviews)
     
     if @listings
-      render :index  
+      render :index    
     else
       render json: ["Listings not found!"], status: 422
     end

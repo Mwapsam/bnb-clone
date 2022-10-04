@@ -47,6 +47,7 @@ class SearchBar extends React.Component {
       e.preventDefault();
     }
     const geocoder = new google.maps.Geocoder();
+    console.log(geocoder);
     geocoder.geocode({ address: this.state.query }, (res, status) => {
       if (status === google.maps.GeocoderStatus.OK) {
         const lat = res[0].geometry.location.lat();
